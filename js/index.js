@@ -87,6 +87,25 @@ var finances = [
 ['Feb-2017', 671099]
 ];
 
+//Heading with line break
+
 console.log("Financial Analysis\n-------------------")
 
+
+//Total Months Calculation
+
 console.log ("Total Months " + finances.length);
+
+
+//Net Total Over entire period
+
+total = 0;
+
+for (var i = 0; i < finances.length; i++) {
+    for (var j = 0; j < finances[i].length; j++){
+    if (typeof finances[i][j] !== 'string'){
+    total = total + (finances[i][j]);
+    console.log (total);
+    }
+    }
+}

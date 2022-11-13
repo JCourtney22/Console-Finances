@@ -1,4 +1,4 @@
-var finances = [
+let finances = [
 ['Jan-2010', 867884],
 ['Feb-2010', 984655],
 ['Mar-2010', 322013],
@@ -105,7 +105,8 @@ for (var i = 0; i < finances.length; i++) {
     for (var j = 0; j < finances[i].length; j++){
     if (typeof finances[i][j] !== 'string'){
     total = total + (finances[i][j]);
-    console.log (total);
     }
     }
 }
+
+console.log (total);

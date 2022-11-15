@@ -94,10 +94,10 @@ console.log("Financial Analysis\n-------------------")
 
 //Total Months Calculation
 
-console.log ("Total Months " + finances.length);
+console.log ("Total Months: " + finances.length);
 
 
-//Net Total Over entire period
+//Net Total Profits/Losses Over entire period
 
 total = 0;
 
@@ -109,4 +109,20 @@ for (var i = 0; i < finances.length; i++) {
     }
 }
 
-console.log (total);
+console.log ("Total: $" + total);
+
+//Average Change
+
+// Greatest Increase
+
+
+
+// max = 0
+
+// for (var i = 0; i < finances.length; i++) {
+//     max = Math.max(max, finances[i]);
+//     }
+
+// console.log ("Greatest Increase in Profits" + max)
+
+//Greatest Deacrese

@@ -11,7 +11,6 @@ In this challenge, you'll be using the concepts you've learned to complete the r
 2. Copy the starter files in your local git repository.
    
 You have been given a dataset composed of arrays with two fields, Date and Profit/Losses.
-
 Your task is to write JavaScript code that analyzes the records to calculate each of the following:
 
 * The total number of months included in the dataset.
